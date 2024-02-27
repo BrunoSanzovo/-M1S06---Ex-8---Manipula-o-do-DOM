@@ -1,0 +1,48 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil de Usuário</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Perfil de Usuário</h1>
+    </header>
+    
+    <main>
+        <section id="perfil">
+            <h2>Informações do Perfil</h2>
+            <div>
+                <img src="assets/fotoperfil.png" alt="Foto de perfil do usuário">
+                <div>
+                    <h3 id="nome-completo">Bruno Verginia Sanzovo</h3>
+                    <p id="descricao">Este é o site desenvolvido por profissionais web, aproveite e altera os dados aqui!</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="formulario">
+            <h2>Atualizar Perfil</h2>
+            <form id="formulario-perfil">
+                <label for="input-nome">Nome:</label>
+                <input type="text" id="input-nome" name="nome" required>
+                
+
+                <label for="input-descricao">Descrição:</label>
+                <textarea id="input-descricao" name="descricao" required></textarea>
+                
+                <button type="submit">Atualizar</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
